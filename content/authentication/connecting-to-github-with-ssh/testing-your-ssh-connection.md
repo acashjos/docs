@@ -27,6 +27,8 @@ When you test your connection, you'll need to authenticate this action using you
   $ ssh -T git@{% data variables.command_line.codeblock %}
   # Attempts to ssh to {% data variables.product.product_name %}
   ```
+> Enterprise customers should use their respective git hostname instead of github.com. <br/>
+> For example, `ssh -T git@git.myorganization.com`
 
   You may see a warning like this:
 
